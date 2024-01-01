@@ -12,6 +12,9 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      screens: {
+        '2xs': '320px', // Adding a 2xs breakpoint for 320px
+      },
     },
   },
   plugins: [],
