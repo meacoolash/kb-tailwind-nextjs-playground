@@ -15,6 +15,20 @@ module.exports = {
       screens: {
         '2xs': '320px', // Adding a 2xs breakpoint for 320px
       },
+      colors: {
+        primary: {
+          DEFAULT: 'var(--primary-color-custom)',
+          dark: '#E6343B',
+        },
+        secondary: {
+          DEFAULT: '#0079BF',
+          dark: '#055A8C',
+        },
+        neutral: {
+          DEFAULT: '#F2F2F2',
+          dark: '#4D4D4D',
+        },
+      },
     },
   },
   plugins: [],
