@@ -1,5 +1,25 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
+import { Montserrat } from 'next/font/google'
+import { Playfair_Display, Signika_Negative } from 'next/font/google'
+
+const montserrat = Montserrat({
+  weights: [400, 700],
+  subsets: ['latin'],
+  variable: '--font-monsterrat',
+})
+
+const playfair_Display = Playfair_Display({
+  weights: [400, 700],
+  subsets: ['latin'],
+  variable: '--font-playfair-display',
+})
+
+const signika_Negative = Signika_Negative({
+  weights: [400, 700],
+  subsets: ['latin'],
+  variable: '--font-signika-negative',
+})
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,7 +31,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.variable} ${montserrat.variable} ${playfair_Display.variable} ${signika_Negative.variable}`}>{children}</body>
     </html>
   )
 }

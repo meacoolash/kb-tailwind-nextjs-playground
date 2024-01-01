@@ -29,6 +29,12 @@ module.exports = {
           dark: '#4D4D4D',
         },
       },
+      fontFamily: {
+        monsterrat: ["var(--font-monsterrat)"],
+        playfair: ["var(--font-playfair-display)"],
+        signika: ["var(--font-signika-negative)"],
+        sans: ["var(--font-monsterrat)"],
+      },
     },
   },
   plugins: [],
