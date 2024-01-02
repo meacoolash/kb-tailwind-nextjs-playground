@@ -35,6 +35,10 @@ module.exports = {
         signika: ["var(--font-signika-negative)"],
         sans: ["var(--font-monsterrat)"],
       },
+      animation: {
+        "spin-slower": "spin 25s ease infinite",
+        "spin-slow": "spin 15s ease-in-out infinite reverse",
+      },
     },
   },
   plugins: [],

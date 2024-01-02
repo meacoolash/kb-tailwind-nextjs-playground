@@ -19,6 +19,9 @@ export default function Home() {
         <li>
           <Link href="/responsive">responsive</Link>
         </li>
+        <li>
+          <Link href="/effect">effect</Link>
+        </li>
       </ul>
     </nav>
   );
